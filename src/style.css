@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font */
+body {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4a5567;
+}
+
+header > h1 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #111729;
+}
+
+h2 {
+  color: #111729;
+}
+
+/* /Font */
+/*  Background */
+
+body {
+  background-color: #f2f5f9;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+/*  /Background */
+/* Body */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* /Body */
+/* Card */
+
+.card {
+  width: 400px;
+  border-style: none;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* /Card */
+/* Img-Container */
+
+.img-container {
+  width: inherit;
+  height: 270px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+/* /Img-Container */
+/* OImg-Bottom-Border */
+
+.img-bottom-border {
+  position: relative;
+  top: -65px;
+}
+
+/* /img-Bottom-Border */
+/* Header */
+
+header {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+header > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+/* /Header */
+/* Card-content */
+
+.card-content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-content > p {
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+/* /Card-content */
+/* Profile */
+/* Avatar-Profile */
+.profile {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.avatar-profile {
+  margin: 5px;
+}
+
+.avatar-profile > img {
+  border-style: none;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 35px;
+}
+
+/* /Avatar-Profile */
+/* /Profile */
+/* Content-Profile */
+
+.content-profile {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.content-profile > h2 {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.content-profile > p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* /Content-Profile */
+/*  */
+/* / */
+/*  */
+/* / */
